@@ -1,3 +1,8 @@
+/**
+ * @param {Array<number>} list - input array
+ * @param {number} pivot - required number
+ * @return {number} - index required number
+ */
 const binarySearch = (list, pivot) => {
     let low = 0;
     let high = list.length - 1;
@@ -9,5 +14,5 @@ const binarySearch = (list, pivot) => {
         else if(pivot > list[mid]) low = mid + 1;
         else return mid;
     }
-    return false;
+    return -1;
 }

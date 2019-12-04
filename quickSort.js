@@ -11,6 +11,12 @@ const partiton = (list, low, high) => {
     return i+1;
 }
 
+/**
+ * @param {Array<number>} list - input array
+ * @param {number} low - start index
+ * @param {number} - last index
+ * @return {Array<number>} list - sorted array
+ */
 const quickSort = (list, low, high) => {
     if(low < high){
         let pi = partiton(list, low, high);
