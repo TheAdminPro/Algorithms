@@ -14,7 +14,7 @@ const partiton = (list, low, high) => {
 /**
  * @param {Array<number>} list - input array
  * @param {number} low - start index
- * @param {number} - last index
+ * @param {number} high - last index
  * @return {Array<number>} list - sorted array
  */
 const quickSort = (list, low, high) => {
